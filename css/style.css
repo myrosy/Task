@@ -1,1 +1,62 @@
 @import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=cyrillic,cyrillic-ext');
+
+div.wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+nav {
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	background: #FEFFFF;
+	flex-basis: 100%;
+	max-width: 1366px;
+	flex-wrap:wrap;
+}
+
+nav .main a {
+	margin-right: 200px;
+	color: #438EC1;
+	font-size: 1.4em;
+}
+
+nav a {
+	text-decoration: none;
+	color: #A1ABB4;
+	margin: 0 10px;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+nav div.menu a:hover {
+	color: #000000;
+}
+
+header {
+	background: url(../images/back.jpg) center no-repeat;
+	background-size: cover;
+	flex-basis: 100%;
+	max-width: 1366px;
+	height: 301px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header p {
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	font-size: 4em;
+	color: #ffffff;
+	font-weight: bold;
+	text-shadow: 0px 5px 12px #000000;
+
+}
